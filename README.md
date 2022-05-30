@@ -1,4 +1,4 @@
-# Orientação sobre esse repertório
+# Orientação sobre esse Repositório
 
 Ele foi criado visando armazenar os desafios de projeto e os exercícios do Bootcamp: Geração Tech UnimeBH | Fullstack.
 
