@@ -13,6 +13,8 @@ Além dos desafios e exercícios estão armazenados os textos que fui elaborando
     4. Um novo idioma, sera?
     5. Entenda a diferença entre GIT e GITHUB (para iniciantes).
 
-- Exercício
+- Exercício<p>
+    1.Primeiro passos para desenvolvimento web. <p>
+        - Primeira Página em PHP
 
 - Desafio de Projetos
