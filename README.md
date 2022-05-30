@@ -12,6 +12,7 @@ Além dos desafios e exercícios estão armazenados os textos que fui elaborando
     3. A relação direta dos fundamentos de algoritmos com seu cotidiano!
     4. Um novo idioma, sera?
     5. Entenda a diferença entre GIT e GITHUB (para iniciantes).
+    6. Nem sempre foi assim!
 
 - Exercício<p>
     1.Primeiro passos para desenvolvimento web. <p>
