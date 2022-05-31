@@ -15,7 +15,7 @@ Além dos desafios e exercícios estão armazenados os textos que fui elaborando
     6. Nem sempre foi assim!
 
 - Exercício<p>
-    1.Primeiro passos para desenvolvimento web. <p>
-        - Primeira Página em PHP
+    1.Primeiro passos para desenvolvimento web (Primeira Página em PHP). 
+    2. Introdução a criação de websites com HTML5 e CSS3.
 
 - Desafio de Projetos
