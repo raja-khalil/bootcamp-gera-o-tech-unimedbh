@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta chearset="utf-8">
+  <meta name="viewport" content="width=device-width, initia-scale=1.0">
+  <title>Fundamentos - Align Items</title>
+  <style>
+    p {
+      font-size: 21px;
+      color: red;
+    }
+
+    .container {
+      max-width: 300px;
+      border: 1px solid black;
+      margin: 0;
+      display: flex;
+      padding: 10px;
+      height: 300px;
+    }
+
+    .item {
+      background-color: blueviolet;
+      margin: 5px;
+      color: white;
+      text-align: center;
+      flex: 1;
+    }
+
+    .center {
+      align-items: center;
+    }
+
+    .stretch {
+      align-items: stretch;
+    }
+
+    .flex-start {
+      align-items: flex-start;
+    }
+
+    .flex-end {
+      align-items: flex-end;
+    }
+
+    .baseline {
+      align-self: baseline;
+    }
+
+    .column {
+      flex-direction: column;
+    }
+
+    .central {
+      height: 300px;
+      justify-content: center;
+    }
+
+    .central .item {
+      flex: 0;
+      padding: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Center</h1>
+
+  <p>Container Center Central</p>
+  <section class="container center central">
+    <div class="item">What is Lorem Ipsum?</div>
+  </section>
+
+  <h1>Column</h1>
+
+  <p>Container Column</p>
+
+  <section class="container column">
+    <div class=" item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+
+  </section>
+
+  <p>Container center Column</p>
+
+  <section class="container center column">
+    <div class=" item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+
+  </section>
+
+  <p>Container stretch Column</p>
+
+  <section class="container stretch column">
+    <div class=" item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+
+  </section>
+
+  <p>Container flex-start Column</p>
+
+  <section class="container flex-start column">
+    <div class=" item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+
+  </section>
+
+  <p>Container flex-end Column</p>
+
+  <section class="container flex-end column">
+    <div class=" item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+
+  </section>
+
+  <p>Container Baseline Column</p>
+
+  <section class="container baseline column">
+    <div class=" item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+
+  </section>
+
+  <h1>Row</h1>
+
+  <p>Container Baseline</p>
+
+  <section class="container baseline">
+    <div class=" item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+
+  </section>
+
+  <p>Container Flex-End</p>
+
+  <section class="container flex-end">
+    <div class="item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+
+  </section>
+
+  <p>Container Flex-start</p>
+
+  <section class="container flex-start">
+    <div class="item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+
+  </section>
+
+  <p>Container Stretch</p>
+
+  <section class="container stretch">
+    <div class="item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+
+  </section>
+
+  <p>Container Center</p>
+
+  <section class="container center">
+    <div class="item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+
+  </section>
+
+  <p>Container</p>
+
+  <section class="container">
+    <div class="item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+
+  </section>
+
+</body>
+
+</html>
