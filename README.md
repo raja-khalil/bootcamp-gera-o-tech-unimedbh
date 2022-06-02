@@ -18,13 +18,13 @@ Além dos desafios e exercícios estão armazenados os textos que fui elaborando
     1.Primeiro passos para desenvolvimento web (Primeira Página em PHP). <br>
     2. Introdução a criação de websites com HTML5 e CSS3. <br>
     3. Poscionando elementos com Flexbox em CSS. <br>
-        . align content
-        . align items
-        . display flex
-        . flex direction 
-        . flex flow 
-        . flex wrap 
-        . justufy content
+        . align content <br>
+        . align items <br>
+        . display flex <br>
+        . flex direction <br>
+        . flex flow <br>
+        . flex wrap <br>
+        . justufy content <br>
 
     
 
