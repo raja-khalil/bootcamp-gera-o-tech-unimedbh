@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta chearset="utf-8">
+  <meta name="viewport" content="width=device-width, initia-scale=1.0">
+  <title>Fundamentos - Align Content</title>
+  <style>
+    h1 {
+      text-align: center;
+      color: blue;
+    }
+
+    p {
+      font-size: 21px;
+      color: red;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 300px;
+      border: 1px solid black;
+      margin: 0 auto;
+      display: flex;
+      height: 400px;
+      flex-wrap: wrap;
+    }
+
+    .item {
+      background-color: orange;
+      padding: 0 5px;
+      color: white;
+      text-align: center;
+      flex: 1;
+      margin: 5px;
+      border: 2px solid black;
+    }
+
+    .center {
+      align-content: center;
+
+    }
+
+    .stretch {
+      align-content: stretch;
+    }
+
+    .flex-start {
+      align-content: flex-start;
+    }
+
+    .flex-end {
+      align-content: flex-end;
+    }
+
+    .space-between {
+      align-content: space-between;
+    }
+
+    .space-around {
+      align-content: space-around;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+  <h1>Row</h1>
+
+  <p>Container space-around </p>
+
+  <section class="container space-around ">
+    <div class="item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+    <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+    <div class="item">t is a long established fact that a reader will be distracted by the readable </div>
+    <div class="item">Contrary to popular belief, Lorem Ipsum is not simply random text. </div>
+    <div class="item">All the Lorem Ipsum generators on the Internet tend to repeat predefined </div>
+
+  </section>
+
+  <p>Container space-between</p>
+
+  <section class="container space-between">
+    <div class="item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+    <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+    <div class="item">t is a long established fact that a reader will be distracted by the readable </div>
+    <div class="item">Contrary to popular belief, Lorem Ipsum is not simply random text. </div>
+    <div class="item">All the Lorem Ipsum generators on the Internet tend to repeat predefined </div>
+
+  </section>
+
+  <p>Container Flex-End</p>
+
+  <section class="container flex-end">
+    <div class="item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+    <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+    <div class="item">t is a long established fact that a reader will be distracted by the readable </div>
+    <div class="item">Contrary to popular belief, Lorem Ipsum is not simply random text. </div>
+    <div class="item">All the Lorem Ipsum generators on the Internet tend to repeat predefined </div>
+
+  </section>
+
+  <p>Container Flex-start</p>
+
+  <section class="container flex-start">
+    <div class="item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+    <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+    <div class="item">t is a long established fact that a reader will be distracted by the readable </div>
+    <div class="item">Contrary to popular belief, Lorem Ipsum is not simply random text. </div>
+    <div class="item">All the Lorem Ipsum generators on the Internet tend to repeat predefined </div>
+
+  </section>
+
+  <p>Container Stretch</p>
+
+  <section class="container stretch">
+    <div class="item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+    <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+    <div class="item">t is a long established fact that a reader will be distracted by the readable </div>
+    <div class="item">Contrary to popular belief, Lorem Ipsum is not simply random text. </div>
+    <div class="item">All the Lorem Ipsum generators on the Internet tend to repeat predefined </div>
+
+  </section>
+
+  <p>Container Center</p>
+
+  <section class="container center">
+    <div class="item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+    <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+    <div class="item">t is a long established fact that a reader will be distracted by the readable </div>
+    <div class="item">Contrary to popular belief, Lorem Ipsum is not simply random text. </div>
+    <div class="item">All the Lorem Ipsum generators on the Internet tend to repeat predefined </div>
+  </section>
+
+  <p>Container</p>
+
+  <section class="container">
+    <div class="item">Where does it come from?</div>
+    <div class="item">Where can I get some?</div>
+    <div class="item">What is Lorem Ipsum?</div>
+    <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+    <div class="item">t is a long established fact that a reader will be distracted by the readable </div>
+    <div class="item">Contrary to popular belief, Lorem Ipsum is not simply random text. </div>
+    <div class="item">All the Lorem Ipsum generators on the Internet tend to repeat predefined </div>
+
+  </section>
+
+</body>
+
+</html>
