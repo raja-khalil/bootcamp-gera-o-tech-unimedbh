@@ -21,11 +21,18 @@ Além dos desafios e exercícios estão armazenados os textos que fui elaborando
     3. Poscionando elementos com Flexbox em CSS. <br>
         . align content <br>
         . align items <br>
+        . align-self <br>
         . display flex <br>
+        . flex-basic <br>
         . flex direction <br>
         . flex flow <br>
+        . flex-grow <br>
+        . flex-shrink <br>
+        . flex <br>
         . flex wrap <br>
         . justufy content <br>
+        . order <br>
+        . projeto integrador (Turismo Flex - baixado do Git Lam a estrutura para fazer a estilização - baixado os exercícios feito no curso)
 
     
 
