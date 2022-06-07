@@ -36,5 +36,5 @@ Além dos desafios e exercícios estão armazenados os textos que fui elaborando
 
     
 
-- Desafio de Projetos
+- Desafio de Projetos <br>
     1.Clone Instagram
