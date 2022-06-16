@@ -1,4 +1,4 @@
-Revelando o HTML
+<p> "Revelando o HTML
 
 A base de trabalho de muitos Dev’s são por meio do HTML e muitas vezes esse quebra cabeça de letrinhas às vezes pouco intuitiva prejudica a compreensão e o processo de aprendizagem. 
 
@@ -457,5 +457,5 @@ As informações contidas até aqui são apenas o início de uma longa jornada q
 Agradeço a você que leu esse material até aqui e espero ter contribuído com a sua jornada.
 Não esqueça de deixar nos comentários a sua percepção sobre essa obra, essa pequena atitude nos motivar a continuar produzindo mais textos como esse, além de ser um fonte valiosa de feedback para saber os pontos que posso melhorar em materiais futuros. 
 
-
+</p>
 
